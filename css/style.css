@@ -180,7 +180,7 @@ hr.line {
     }
 
     .nav-link.nav-button.active {
-        background-color: #E07224;
+        background-color: #E07224 !important;
         border-radius: 0.25rem;
         margin-top: 12px;
         margin-left: 12px;
