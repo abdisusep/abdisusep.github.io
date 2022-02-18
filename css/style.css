@@ -80,25 +80,23 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #f8f9fa;
     border: none;
-    /* font-size: 19px; */
     padding: 8px 12px 8px 12px;
     box-shadow: none !important;
 }
 
 .nav-link.nav-button {
-    background-color: #E07224;
+    background-color: #212529;
     border-radius: 12px;
-    margin-left: 20px;
+    margin-left: 16px;
     padding: 8px 12px 8px 12px !important;
     color: #FFFFFF !important;
 }
 
 .nav-link.nav-button.active {
-    background-color: #212529 !important;
+    background-color: #E07224;
     border-radius: 12px;
-    margin-left: 20px;
+    margin-left: 16px;
     padding: 8px 12px 8px 12px !important;
     color: #FFFFFF !important;
 }
@@ -117,7 +115,7 @@ body {
     padding-top: 190px;
 }
 
-.about {
+.section {
     padding-top: 110px;
     padding-bottom: 80px;
 }
@@ -135,13 +133,11 @@ body {
 .portfolio {
     padding-top: 110px;
     padding-bottom: 80px;
-    /* margin-top: 200px; */
 }
 
 .contact {
     padding-top: 110px;
     padding-bottom: 80px;
-    /* margin-top: 200px; */
 }
 
 .img-service {
