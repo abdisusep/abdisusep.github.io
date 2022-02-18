@@ -86,7 +86,7 @@ body {
 }
 
 .nav-link.nav-button {
-    background-color: #212529;
+    background-color: #212529 !important;
     border-radius: 12px;
     margin-left: 16px;
     padding: 8px 12px 8px 12px !important;
@@ -94,7 +94,7 @@ body {
 }
 
 .nav-link.nav-button.active {
-    background-color: #E07224;
+    background-color: #E07224 !important;
     border-radius: 12px;
     margin-left: 16px;
     padding: 8px 12px 8px 12px !important;
@@ -169,7 +169,7 @@ hr.line {
 
 @media only screen and (max-width: 991px) {
     .nav-link.nav-button {
-        background-color: #E07224;
+        background-color: #212529 !important;
         border-radius: 0.25rem;
         margin-top: 12px;
         margin-left: 12px;
@@ -204,46 +204,4 @@ hr.line {
     .welcome-right {
         margin-bottom: 30px;
     }
-}
-
-/* width */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-
-.scroller {
-    scrollbar-color: #888 white;
-    scrollbar-width: thin;
-}
-
-.scroller::-webkit-scrollbar {
-    width: 8px;
-}
-
-.scroller::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.scroller::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-.scroller::-webkit-scrollbar-thumb:hover {
-    background: #555;
 }
