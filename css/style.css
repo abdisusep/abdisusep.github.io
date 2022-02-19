@@ -107,6 +107,30 @@ body {
     padding: 12px 16px 12px 16px;
 }
 
+.about-item {
+    margin-bottom: 12px;
+    padding-top: 12px;
+}
+
+.img-about {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 6px;
+    width: 80%;
+}
+
+.about-item span {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    padding: 10px 14px 10px 14px;
+    background-color: #f8f9fa;
+    display: inline-flex;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    color: #212529;
+}
+
 .card {
     border: none;
 }
@@ -170,17 +194,6 @@ hr.line {
 @media only screen and (max-width: 991px) {
     .nav-link.nav-button {
         background-color: #212529 !important;
-        border-radius: 0.25rem;
-        margin-top: 12px;
-        margin-left: 12px;
-        margin-right: 12px;
-        padding-left: 14px;
-        padding-right: 14px;
-        color: #FFFFFF !important;
-    }
-
-    .nav-link.nav-button.active {
-        background-color: #E07224 !important;
         border-radius: 0.25rem;
         margin-top: 12px;
         margin-left: 12px;
