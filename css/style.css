@@ -12,14 +12,14 @@ body {
 }
 
 .form-control.input {
-    box-shadow: none !important;
+    box-shadow: none;
     height: 50px;
     margin-bottom: 14px;
     border-radius: 12px;
 }
 
 .form-control.tarea {
-    box-shadow: none !important;
+    box-shadow: none;
     height: 80px;
     border-radius: 12px;
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .navbar-brand {
-    font-weight: 500 !important;
+    font-weight: 500;
 }
 
 .navbar-toggler {
@@ -102,19 +102,18 @@ body {
 }
 
 .nav-link.nav-button {
-    background-color: #212529 !important;
+    background-color: #212529;
     border-radius: 12px;
     margin-left: 16px;
-    padding: 8px 12px 8px 12px !important;
+    padding: 8px 12px 8px 12px;
     color: #FFFFFF !important;
 }
 
 .nav-link.nav-button.active {
-    background-color: #E07224 !important;
+    background-color: #E07224;
     border-radius: 12px;
     margin-left: 16px;
-    padding: 8px 12px 8px 12px !important;
-    color: #FFFFFF !important;
+    padding: 8px 12px 8px 12px;
 }
 
 .btn-hire {
@@ -133,7 +132,7 @@ p.hello {
 }
 
 .img-about {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     border-radius: 12px;
     text-align: center;
     margin-top: 6px;
@@ -142,7 +141,7 @@ p.hello {
 }
 
 .about-item span {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     padding: 10px 14px 10px 14px;
     background-color: #f8f9fa;
     display: inline-flex;
@@ -181,9 +180,9 @@ p.hello {
 }
 
 hr.line {
-    width: 60px !important;
-    height: 4px !important;
-    color: #E07224 !important;
+    width: 60px;
+    height: 4px;
+    color: #E07224;
     border: none;
     border-radius: 8px;
     margin: auto;
@@ -220,20 +219,19 @@ hr.line {
 
 @media only screen and (max-width: 991px) {
     .nav-link.nav-button {
-        background-color: #212529 !important;
-        border-radius: 0.25rem;
         margin-top: 12px;
         margin-left: 12px;
         margin-right: 12px;
         padding-left: 14px;
         padding-right: 14px;
-        color: #FFFFFF !important;
     }
 
-    .nav-link {
-        font-weight: 500;
-        padding-left: 12px !important;
-        padding-right: 12px !important;
+    .nav-link.nav-button.nav-link.active {
+        margin-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 
     .welcome {
