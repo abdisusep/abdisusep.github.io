@@ -91,6 +91,10 @@ body {
     color: #E07224 !important;
 }
 
+.navbar-brand {
+    font-weight: 500 !important;
+}
+
 .navbar-toggler {
     border: none;
     padding: 8px 12px 8px 12px;
@@ -117,6 +121,10 @@ body {
     border-radius: 12px;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
     padding: 12px 16px 12px 16px;
+}
+
+p.hello {
+    font-weight: 500;
 }
 
 .about-item {
