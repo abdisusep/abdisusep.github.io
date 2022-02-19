@@ -15,20 +15,32 @@ body {
     box-shadow: none !important;
     height: 50px;
     margin-bottom: 14px;
+    border-radius: 12px;
 }
 
 .form-control.tarea {
     box-shadow: none !important;
     height: 80px;
+    border-radius: 12px;
+}
+
+.text-warning {
+    color: #E07224 !important;
+}
+
+.p-welcome {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .btn.send {
     padding: 12px 22px 12px 22px;
+    border-radius: 12px;
 }
 
 .icon-location {
     background-color: #f8f9fa;
-    border-radius: 100%;
+    border-radius: 12px;
     padding: 18px 15px 12px 15px;
 }
 
@@ -40,7 +52,7 @@ body {
 
 .icon-email {
     background-color: #f8f9fa;
-    border-radius: 100%;
+    border-radius: 12px;
     padding: 18px 12px 12px 12px;
 }
 
@@ -52,7 +64,7 @@ body {
 
 .icon-whatsapp {
     background-color: #f8f9fa;
-    border-radius: 100%;
+    border-radius: 12px;
     padding: 18px 13.3px 12px 13.3px;
 }
 
@@ -150,6 +162,11 @@ body {
     margin-bottom: 20px;
 }
 
+.card-service {
+    border-radius: 12px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
 .section-title {
     text-align: center;
     margin-bottom: 40px;
@@ -166,7 +183,8 @@ hr.line {
 }
 
 .btn-filter {
-    margin: 4px
+    margin: 4px;
+    border-radius: 12px;
 }
 
 .btn-filter.active {
@@ -175,7 +193,7 @@ hr.line {
 }
 
 .img-filter {
-    border-radius: 0.25rem;
+    border-radius: 12px;
     width: 100%;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
