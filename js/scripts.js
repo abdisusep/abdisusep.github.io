@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
   $('#download-resume').click(function () {
-    alert('Download resume in preparation!!!');
+    //download resume
   });
 
   $('#send-email').click(function () {
-    alert('Send email in preparation!!!');
+   //send email
   });
 
   // aos
